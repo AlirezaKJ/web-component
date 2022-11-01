@@ -20,17 +20,17 @@ function updateClock() {
     if (currsec == 0) {
         secbar.style.transition = "0s"
     } else {
-        secbar.style.transition = "0.3s"
+        secbar.style.transition = "0.5s"
     }
     if (currmin == 0) {
         minbar.style.transition = "0s"
     } else {
-        minbar.style.transition = "0.3s"
+        minbar.style.transition = "0.5s"
     }
     if (currhour == 0) {
         hourbar.style.transition = "0s"
     } else {
-        hourbar.style.transition = "0.3s"
+        hourbar.style.transition = "0.5s"
     }
 
     secbar.style.rotate = secrotateamount + 'deg'

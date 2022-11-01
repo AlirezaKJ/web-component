@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .clock {
     display: flex;
@@ -14,11 +21,11 @@
     border-radius: 50%;
     width: 200px;
     height: 200px;
+    scale: 3;
 }
 
 .clock > div {
     position: absolute;
-    transition: 0.3s;
 }
 .centerdot {
     background-color: #ffffff;
